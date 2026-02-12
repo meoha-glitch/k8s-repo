@@ -16,6 +16,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: myapp
-          image: ghcr.io/meoha-glitch/myapp:1.2
+          image: ghcr.io/meoha-glitch/myapp:2.0
           ports:
              - containerPort: 80
